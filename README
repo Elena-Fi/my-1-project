@@ -1,0 +1,27 @@
+# My First GitHub Project 🚀
+
+Welcome to my very first repository! This project marks the beginning of my journey into software development and version control.
+
+## 📌 Project Overview
+This is a training project designed to practice the fundamentals of web development and learn how to manage code using **Git** and **GitHub**.
+
+## 🛠️ Technologies Used
+* **HTML5** — for page structure.
+* **CSS3** — for styling and layout.
+* **Git** — for version control.
+* **GitHub** — for remote hosting and collaboration.
+
+## 🎓 What I Learned
+During this project, I successfully mastered the following:
+1. Initializing a local repository with `git init`.
+2. Staging and committing changes.
+3. Troubleshooting remote connection issues (handling `origin` and `push` errors).
+4. Authenticating with GitHub using a **Personal Access Token**.
+
+## 🚀 How to Run
+To view this project locally:
+1. Clone the repository or download the ZIP file.
+2. Open `index.html` in any modern web browser.
+
+---
+*Created in 2026 as part of my professional transition to Software Engineering.*
