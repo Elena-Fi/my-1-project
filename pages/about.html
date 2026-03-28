@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div>
+    <img src="../photo/logo.jpg" class = "logo">
+</div>
+<h1>The most popular movie genres for watching according to a survey among viewers</h1>
+<div class = "hr"></div>
+<h2><a href = "index.html">Home</a> Take part in the survey </h2>
+<div class = "hr"></div>
+<div class = "text-position">
+    <span class = "left">About survey</span>
+    <span class = "right">Two hundred and fifty participances between the ages of 18 and 55 were interviewed and asked
+    which of genre of movie they prefer watching. And there were 50 percent of female and 50 percent of male.
+    In general among of top genres were action & adventure, comedy, drama and romance.
+    So, 55 percent of viewers prefer watching action & adventure, 55 percent prefer watching comedy,
+    45 percent prefer watching drama, and finally 45 percent of participances prefer watching romance.</span>
+</div>
+<div class = "hr"></div>
+<h2>Leave your vote</h2>
+<form onsubmit="return validateForm()" novalidate>
+    <div class="position">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="position">
+        <label>Gender:</label>
+        <div>
+            <label>Female <input type="radio" name="gender" value="female"></label>
+            <label>Male <input type="radio" name="gender" value="male"></label>
+            <label>Other <input type="radio" name="gender" value="other"></label>
+        </div>
+    </div>
+    <div class="position">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="120" required>
+    </div>
+    <div class="position">
+        <label>Vote:</label>
+        <div>
+            <label>Action & Adventure <input type="radio" name="option" value="action"></label>
+            <label>Comedy <input type="radio" name="option" value="comedy"></label>
+            <label>Drama <input type="radio" name="option" value="drama"></label>
+            <label>Romance <input type="radio" name="option" value="romance"></label>
+        </div>
+    </div>
+    <div class="button">
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>
+<script>
+    function validateForm() {
+        const age = document.getElementById("age").value;
+        if (age < 18) {
+            alert("You must be 18 or older!");
+            return false;
+        }
+        return true;
+    }
+</script>
+<div class = "hr"></div>
+<h3> &copy; 2026 </h3>
+</body>
+</html>
